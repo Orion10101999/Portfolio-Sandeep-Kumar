@@ -1,0 +1,101 @@
+import React from 'react'
+import ProjectCard from '../components/ProjectCard'
+
+const Project = () => {
+  const arrApi = [
+    {
+    "id": 1,
+    "title" : 'Employee Mangement',
+    "description" : 'Developed an API to perform CRUD operstions and load API data in the component , data in Bar diagram using chart.js ,Implement user authentication and authorization using JWT and Ensure proper error handling and validation for API requests.',
+    "features" : "",
+    "technologies" : ['React', 'Node' , 'mongoDB' , 'Express', 'jsonwebtoken'],
+    "link" : 'https://github.com/Orion10101999/employee-management-mern',
+    "weblink" : 'https://employee-management-mern.onrender.com/'
+  },
+    {
+    "id": 2,
+    "title" : 'invoice-management-system',
+    "description" : 'Developed an API to perform CRUD operstions and load API data in the component , data in Bar diagram using chart.js ,Implement user authentication and authorization using JWT and Ensure proper error handling and validation for API requests.',
+    "features" : "PDF Download",
+    "technologies" : ['React', 'Node' , 'mongoDB' , 'Express', 'jsonwebtoken'],
+    "link" : 'https://github.com/Orion10101999/mern-invoice-management-system',
+    "weblink" : 'https://invoice-management-system-h4fd.onrender.com/'
+  },
+  {
+  "id": 3,
+  "title" : 'Counter Chart',
+  "description" : 'Developed an Web Application . Created a Progress Bar based on the number such that if I add or subtract from the number, it should reflect on the progress bar (progress bar should update accordingly). Implement Undo/Redo for the mathematical operations.',
+  "features" : "",
+  "technologies" : ['React'],
+  "link" : 'https://github.com/Orion10101999/Jarurat-Care-Counter-Chart-Js',
+  "weblink" : 'https://jarurat-care-counter-chart-js.vercel.app/'
+},
+    {
+    "id": 4,
+    "title" : 'eState webApp',
+    "description" : 'Developed an API to perform CRUD operstions and load API data in the component ,Implement user authentication and authorization using JWT and Ensure proper error handling and validation for API requests.',
+    "features" : "Cloudinary , media assets, such as images and videos",
+    "technologies" : ['React', 'Node' , 'mongoDB' , 'Express' , 'Redux toolkit' , 'jsonwebtoken'],
+    "link" : 'https://github.com/Orion10101999/eState',
+    "weblink" : ''
+  },
+  {
+    "id": 5,
+    "title" : 'Auth App',
+    "description" : 'Developed an API to perform CRUD operstions , Image uploading ,Implement user authentication and authorization using JWT and Ensure proper error handling and validation for API requests.',
+    "features" : "Google OAuth",
+    "technologies" : ['React', 'Node' , 'mongoDB' , 'Express' , 'Redux toolkit' , 'jsonwebtoken'],
+    "link" : 'https://github.com/Orion10101999/mern-auth',
+    "weblink" : ''
+  },
+    {
+    "id": 6,
+    "title" : 'Book Store Management App',
+    "description" : 'Developed an API to perform CRUD operstions to manage books,Implement user authentication and authorization using JWT .',
+    "features" : "",
+    "technologies" : ['React', 'Node' , 'mongoDB' , 'Express' , 'jsonwebtoken'],
+    "link" : 'https://github.com/Orion10101999/BookStore',
+    "weblink" : ''
+  },
+    {
+    "id": 7,
+    "title" : 'Matrix Color Change',
+    "description" : 'Click on cells to change their color to green ,Clicking the ninth cell initiates an automatic color change of previously clicked cells to orange ,A reset button to revert the matrix to its initial state , Smooth transitions and animations for color changes and borders.',
+    "features" : "",
+    "technologies" : ['React'],
+    "link" : 'https://github.com/Orion10101999/MatrixColorChange',
+    "weblink" : ''
+  },
+    {
+    "id": 8,
+    "title" : 'authentication system ',
+    "description" : 'Authentication login , signup page using tailwind css.',
+    "features" : "",
+    "technologies" : ['React' , 'Node' , 'Express' , 'Mysql' , 'jsonwebtoken'],
+    "link" : 'https://github.com/Orion10101999/WEBMOBI-authentication-system-mysql',
+    "weblink" : ''
+  },
+    {
+    "id": 9,
+    "title" : 'School Website ',
+    "description" : 'Home , About , Admisssion Academics page using tailwind css',
+    "features" : "",
+    "technologies" : ['React' , 'tailwind css'],
+    "link" : 'https://github.com/Orion10101999/school-website-react',
+    "weblink" : ''
+  },
+]
+  return (
+    <section className="mt-8">
+    <h2 className="text-2xl font-bold text-3xl text-blue-600">Projects</h2>
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
+      {
+        arrApi.map( item =><ProjectCard key={item.id} id={item.id} title={item.title} description={item.description} features={item.features} technologies={item.technologies} link={item.link} weblink={item.weblink}/>)
+      }
+    
+    </div>
+  </section>
+  )
+}
+
+export default Project
