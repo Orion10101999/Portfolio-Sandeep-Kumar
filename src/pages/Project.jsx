@@ -90,8 +90,8 @@ const Project = () => {
     "description" : 'This project is a simple, responsive website built using HTML, CSS, and JavaScript. The design is implemented based on a Figma file, with attention to detail in both the desktop and mobile layouts',
     "features" : "",
     "technologies" : ['html' , 'css' , 'javaScript' , 'figma'],
-    "link" : 'https://github.com/Orion10101999/school-website-react',
-    "weblink" : ''
+    "link" : 'https://github.com/Orion10101999/dt-figma-to-html',
+    "weblink" : 'https://dt-figma-to-html.vercel.app/'
   },
 ]
   return (
