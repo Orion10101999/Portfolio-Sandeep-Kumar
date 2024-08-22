@@ -84,6 +84,15 @@ const Project = () => {
     "link" : 'https://github.com/Orion10101999/school-website-react',
     "weblink" : ''
   },
+    {
+    "id": 10,
+    "title" : 'Figma to html ',
+    "description" : 'This project is a simple, responsive website built using HTML, CSS, and JavaScript. The design is implemented based on a Figma file, with attention to detail in both the desktop and mobile layouts',
+    "features" : "",
+    "technologies" : ['html' , 'css' , 'javaScript' , 'figma'],
+    "link" : 'https://github.com/Orion10101999/school-website-react',
+    "weblink" : ''
+  },
 ]
   return (
     <section className="mt-8">
