@@ -60,11 +60,11 @@ const Project = () => {
     {
     "id": 7,
     "title" : 'Matrix Color Change',
-    "description" : 'Click on cells to change their color to green ,Clicking the ninth cell initiates an automatic color change of previously clicked cells to orange ,A reset button to revert the matrix to its initial state , Smooth transitions and animations for color changes and borders.',
+    "description" : 'This project is a React-based application that creates a 3x3 matrix of cells. Users can click on cells to change their color to green. When the ninth cell is clicked, the colors of the previously clicked cells change to orange in a specified order with a delay between each change. The application also includes a reset button to revert the matrix to its initial state.',
     "features" : "",
     "technologies" : ['React'],
     "link" : 'https://github.com/Orion10101999/MatrixColorChange',
-    "weblink" : ''
+    "weblink" : 'https://matrix-color-change.vercel.app/'
   },
     {
     "id": 8,
