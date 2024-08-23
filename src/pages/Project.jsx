@@ -78,11 +78,11 @@ const Project = () => {
     {
     "id": 9,
     "title" : 'School Website ',
-    "description" : 'Home , About , Admisssion Academics page using tailwind css',
+    "description" : 'Design and develop a school website to showcase proficiency in React.js and frontend development skills. like Home Page, About Us Page, Admisssion Page, Academics page , Faculty page ,using tailwind css',
     "features" : "",
     "technologies" : ['React' , 'tailwind css'],
     "link" : 'https://github.com/Orion10101999/school-website-react',
-    "weblink" : ''
+    "weblink" : 'https://school-website-react-zeta.vercel.app/'
   },
     {
     "id": 10,
