@@ -96,7 +96,7 @@ const Project = () => {
     {
     "id": 11,
     "title" : 'Review Sentiment Analysis ',
-    "description" : 'This project is a Review Sentiment Analysis App built using React.js. The app displays reviews fetched from a JSON file and allows users to toggle the visibility of translated content for each review.',
+    "description" : 'This is a Review Sentiment Analysis application built using React. The application displays a list of reviews, highlights specific text based on sentiment analysis, and shows tooltips with additional information about the sentiment.',
     "features" : "highlight paragraph",
     "technologies" : ['tailwind css' , 'React'],
     "link" : 'https://github.com/Orion10101999/Reviews',
