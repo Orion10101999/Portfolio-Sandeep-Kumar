@@ -86,7 +86,7 @@ const Project = () => {
   },
     {
     "id": 10,
-    "title" : 'Figma to html ',
+    "title" : 'Webpage Creation - Figma to html ',
     "description" : 'This project is a simple, responsive website built using HTML, CSS, and JavaScript. The design is implemented based on a Figma file, with attention to detail in both the desktop and mobile layouts',
     "features" : "",
     "technologies" : ['html' , 'css' , 'javaScript' , 'figma'],
