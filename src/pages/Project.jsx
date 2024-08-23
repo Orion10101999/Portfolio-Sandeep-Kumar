@@ -93,6 +93,15 @@ const Project = () => {
     "link" : 'https://github.com/Orion10101999/dt-figma-to-html',
     "weblink" : 'https://dt-figma-to-html.vercel.app/'
   },
+    {
+    "id": 11,
+    "title" : 'Review Sentiment Analysis ',
+    "description" : 'This project is a Review Sentiment Analysis App built using React.js. The app displays reviews fetched from a JSON file and allows users to toggle the visibility of translated content for each review.',
+    "features" : "highlight paragraph",
+    "technologies" : ['tailwind css' , 'React'],
+    "link" : 'https://github.com/Orion10101999/Reviews',
+    "weblink" : 'https://sentiment-review-tooltip.vercel.app/'
+  },
 ]
   return (
     <section className="mt-8">
